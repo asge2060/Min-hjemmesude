@@ -1,0 +1,244 @@
+body {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	margin: 0px;
+	padding: 0px; 
+	background-color: #f4f4f4;
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+
+header {
+	background-color:#557a95;
+	color:#ffffff;
+	padding: 30px;
+	min-height: 40px;
+	border-bottom:#b1a296 3px solid;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+}
+
+header a {
+	color:#ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header ul {
+	margin: 0;
+	padding: 0;
+}
+
+header li {
+	display: inline;
+	float: left;
+	padding: 0px 20px 0px 20px;
+}
+
+header #branding {
+	float: left;
+	margin: 0;
+}
+
+nav {
+	float: right;
+	margin-top: 10px;
+}
+
+header h1 {
+	margin: 0;
+	padding: 0;
+}
+
+header .highlight {
+	font-weight: bold;
+	color: #b1a296;
+	text-shadow: 0.5px 0.5px 0.5px black;
+}
+
+header a:hover{
+	color: #ffffff;
+	font-weight: bold;
+}
+
+#vis {
+	min-height: 450px;
+	background:url('img/4.jpg') no-repeat;
+	text-align: center;
+	color: white;
+	margin: auto;
+}
+
+#vis p {
+	font-size: 25px;
+}
+#vis h1 {
+	font-size: 400%;
+	margin-top: 100px;
+	margin-bottom: 10px;
+}
+
+#vis div {
+	margin-top: 75px;
+}
+
+#hej {
+	background-color: #557a95;
+	color: white;
+	padding-right: 200px;
+	padding-left: 200px;
+	border-bottom: #b1a296 3px solid;
+}
+
+#hej h1 {
+	float: left;
+}
+
+#hej form {
+	float: right;
+
+	padding-top: 20px;
+}
+
+input[type="email"] {
+	height: 25px;
+	width: 250px;
+}
+button {
+		height: 38px;
+background-color: #da7b93;
+		border: none;
+		color: white;
+		padding-left: 20px;
+		padding-right: 20px;
+
+}
+
+.bokse {
+	width: 33%;
+}
+.bokse p {
+	width: 90%;
+}
+
+#en {
+	float: left;
+}
+
+#to {
+	float: right;
+}
+
+#tre {
+	float: right;
+}
+
+footer {
+	background-color: #da7b93;
+		padding-right: 200px;
+	padding-left: 200px;
+	text-align: center;
+	margin: auto;
+	bottom: 0;
+	min-height: 100%;
+	border-top: 3px solid #b1a296;
+
+}
+
+footer p {
+	text-align: middle;
+	padding-right: 50px;
+}
+
+.headers {
+	right: 100px;
+}
+
+#ommig {
+
+	width: 57%;
+	height: 200px;
+	margin-top: 100px;
+	float: left;
+	padding: 40px;
+}
+
+.indhold {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+	margin-top: 75px
+}
+
+#billede img{
+	width: 33%;
+	float: right;
+	margin-top: 150px;
+	margin-bottom: 125px;
+	border: 2px solid #b1a296;
+}
+
+#footer2 {
+	min-height: 100%;
+	position: relative;
+	bottom: 0;
+	margin-top: 51px;
+}
+footer p {
+
+}
+
+#kontakt {
+	background: url('img/bø.jpg') no-repeat;
+	margin:auto;
+	min-height: 500px;
+	margin-top: 100px;
+	background-size: 100%;
+	border-bottom: 3px solid #b1a296;
+}
+
+#kontakt div {
+	color: black;
+	width: 80%;
+	
+	}
+
+#kontakt #kontaktbillede {
+	width: 40%;
+	margin-top: 15%;
+}
+
+#kontakt #kontaktbillede h1{
+	font-size: 50px;
+	margin-bottom: 0;
+}
+
+#kontakt #kontaktbillede p {
+	font-size: 15px;
+	margin-top: 0px;
+}
+#kontakttekst {
+	margin-bottom: 5%;
+	margin-top: 5%;
+}
+
+.bokse {
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+
